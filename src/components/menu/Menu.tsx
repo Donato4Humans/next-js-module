@@ -9,15 +9,15 @@ const Menu = () => {
                 </li>
 
                 <li className="border-2 border-cyan-400 p-1">
-                    <Link href={"/about"}>about</Link>
-                </li>
-
-                <li className="border-2 border-cyan-400 p-1">
-                    <Link href={"/contacts"}>contacts</Link>
-                </li>
-
-                <li className="border-2 border-cyan-400 p-1">
                     <Link href={"/users"}>users</Link>
+                </li>
+
+                <li className="border-2 border-cyan-400 p-1">
+                    <Link href={"/posts"}>posts</Link>
+                </li>
+
+                <li className="border-2 border-cyan-400 p-1">
+                    <Link href={"/comments"}>comments</Link>
                 </li>
             </ul>
             <hr/>

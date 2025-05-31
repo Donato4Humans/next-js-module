@@ -1,6 +1,6 @@
 import {FC} from "react";
 import {Metadata} from "next";
-import UserDetailsComponent from "@/components/user/UserDetailsComponent";
+import PostDetailsComponent from "@/components/post/PostDetailsComponent";
 
 type Props = {
     params: { id:string }
@@ -9,20 +9,20 @@ type Props = {
 export const generateMetadata = async ({params}: Props): Promise<Metadata> => {
     const {id} = await params;
     return {
-        title: `User ${id} page title`,
+        title: `Post ${id} page title`,
     }
 }
 
-const UserPage:FC<Props> = async ({params}) => {
+const PostPage:FC<Props> = async ({params}) => {
 
     const {id} = await params;
 
     return (
         <div className="text-center text-4xl">
-            <h3>USER-DETAILS</h3>
-            <div>{<UserDetailsComponent id={id}/>}</div>
+            <h3>Post-DETAILS</h3>
+            <div>{<PostDetailsComponent id={id}/>}</div>
         </div>
     );
 };
 
-export default UserPage;
+export default PostPage;
