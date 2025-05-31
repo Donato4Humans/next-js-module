@@ -52,3 +52,5 @@ HW1 - TASK-1
 /posts/id – відобразити певний пост
 
 /comments/id – відобразити певний коментар
+
+## TASK WAS MADE WITHOUT KNOWLEDGE ABOUT NEXT SERVER-BASED API CALLS SO WAS MADE MISTAKES WITH CLIENT-BASED HOOKS FOR API-CALLS
