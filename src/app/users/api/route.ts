@@ -20,7 +20,7 @@ export const GET = async (request: Request, response: Response) => {
     return Response.json(users);
 }
 
-// localhost:3000/hello/api [GET]
+// localhost:3000/hello/api [POST]
 export const POST = () => {
     console.log('POST request route handler');
     return Response.json({message: 'POST request route handler'});
